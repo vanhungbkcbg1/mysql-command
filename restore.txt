@@ -1,0 +1,10 @@
+restore database from dump file
+
+mysql -h [host] -u [user_name] -p [database] < dump.sql
+
+example
+ mysql -h 127.0.0.1 -u test -p test_bk <test.sql
+
+truong hop trong file dump co nhieu table, gio muon restore individual table
+thi ko duoc,chung ta phai backup cacs table sau do dung file nay de restore
+
