@@ -36,3 +36,7 @@ trong menh de tren thi menh de ignore-table phai chi dinh ca datatable.table muo
 
 dump options
 https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html#mysqldump-option-summary
+
+
+explain isolation level in mysql with example
+https://dev.to/techschoolguru/understand-isolation-levels-read-phenomena-in-mysql-postgres-c2e
