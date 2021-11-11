@@ -1,0 +1,22 @@
+read uncommited
+once transaction can read data is not commited in other transaction
+
+non-repeatable-read
+two read statement with difference result
+
+read commited
+can read data commited in other transaction
+but when two read statement in once transaction have difference result
+
+repeatable-read
+two read statement have same result
+wrong result when do operator in transaction
+
+
+Select for share
+lock on any row that are read,others transaction can read the rows but can not modify them ultil your transaction commit.
+if any of these rows were changed in others transaction that has not yet commited, your query wait until that transaction ends
+and then use the latest values
+
+select for update 
+lock the rows are read, other transaction can not read,update,delete the rows
